@@ -1,8 +1,8 @@
 
 aidl_interface {
-    name: "android.hardware.fanspeedcontrol",
+    name: "android.hardware.fancontroller",
     vendor: true,
-    srcs: ["android/hardware/fanspeedcontrol/IFanSpeedControlService.aidl"],
+    srcs: ["android/hardware/fancontroller/IFanSpeedControlService.aidl"],
     stability: "vintf",
     owner: "vqtrong",
     backend: {
