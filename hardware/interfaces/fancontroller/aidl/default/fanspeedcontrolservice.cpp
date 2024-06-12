@@ -7,7 +7,7 @@
 #include <binder/IServiceManager.h>
 #include "FanSpeedControl.h"
 
-using aidl::android::hardware::fanspeedcontrol::FanSpeedControl;
+using aidl::android::hardware::fancontroller::FanSpeedControl;
 using std::string_literals::operator""s;
 
 void logd(std::string msg) {
