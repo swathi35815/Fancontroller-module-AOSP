@@ -7,7 +7,7 @@ cc_bianry{
 
 	srcs:[
 		"FanSpeedControl.cpp",
-		"service.cpp",
+		"fanspeedcontrolservice.cpp",
 	],
 
 	cflags:[
