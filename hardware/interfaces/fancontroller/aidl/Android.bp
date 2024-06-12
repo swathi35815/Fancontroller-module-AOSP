@@ -5,7 +5,6 @@ aidl_interface {
     srcs: ["android/hardware/fanspeedcontrol/IFanSpeedControlService.aidl"],
     stability: "vintf",
     owner: "vqtrong",
-
     backend: {
         cpp: {
             enabled: false,
