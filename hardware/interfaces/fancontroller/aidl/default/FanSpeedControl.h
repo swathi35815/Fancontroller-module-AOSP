@@ -3,18 +3,18 @@
 namespace aidl{
     namespace android{
         namespace hardware {
-            namespace fanspeedcontrol{
+            namespace fancontroller{
                 class FanSpeedControl : public BnFanSpeedControl{
                 public:
                     int fanSpeed=0;
                     bool isFanOn = false;
 
-                    ndk::ScopedAStatus increaseFanSpeedHAL();
-                    ndk::ScopedAStatus decreaseFanSpeedHAL();
-                    ndk::ScopedAStatus turnFanOnHAL();
-                    ndk::ScopedAStatus turnFanOffHal();
-                    ndk::ScopedAStatus isFanOnHal();
-                    int getFanSpeedHal();
+                    ndk::ScopedAStatus increaseFanSpeedHAL(std::bool* _aidl_return);
+                    ndk::ScopedAStatus decreaseFanSpeedHAL(std::bool* _aidl_return);
+                    ndk::ScopedAStatus turnFanOnHAL(std::bool* _aidl_return);
+                    ndk::ScopedAStatus turnFanOffHal(std::bool* _aidl_return);
+                    ndk::ScopedAStatus isFanOnHal(std::bool* _aidl_return);
+                    int getFanSpeedHal(std::int* _aidl_return);
                 };
             }
         }
