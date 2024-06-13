@@ -14,7 +14,7 @@ namespace aidl{
                     ndk::ScopedAStatus turnFanOnHAL(std::bool* _aidl_return);
                     ndk::ScopedAStatus turnFanOffHal(std::bool* _aidl_return);
                     ndk::ScopedAStatus isFanOnHal(std::bool* _aidl_return);
-                    int getFanSpeedHal(std::int* _aidl_return);
+                    ndk::ScopedAStatus getFanSpeedHal(std::int* _aidl_return);
                 };
             }
         }
