@@ -8,5 +8,4 @@ type system_server_tmpfs, file_type, mlstrustedobject;
 # system/sepolicy/public is for vendor-facing type and attribute definitions.
 # DO NOT ADD allow, neverallow, or dontaudit statements here.
 # Instead, add such policy rules to system/sepolicy/private/*.te.
-
-hal_client_domain(system_server, hal_invcase)
+hal_client_domain(system_server, hal_fancontroller)
