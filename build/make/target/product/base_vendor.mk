@@ -29,9 +29,9 @@ PRODUCT_PACKAGES += \
     servicemanager.recovery \
     shell_and_utilities_recovery \
     watchdogd.recovery \
-    android.hardware.invcase \
-    android.hardware.invcase-service \
-    Invcase
+    android.hardware.fancontroller \
+    android.hardware.fancontroller-service \
+    FanSpeedControl
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.recovery.usb.vid?=18D1 \
@@ -110,4 +110,4 @@ PRODUCT_PACKAGES += \
     userdebug_plat_sepolicy.cil
 
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST+= \
-    system/app/Invcase/%
+    system/app/FanSpeedControl/%
